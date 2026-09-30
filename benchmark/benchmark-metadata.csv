@@ -1,0 +1,8 @@
+property,clickhouse,timescaledb
+row_count,996059,996059
+distinct_aircraft,13088,13088
+min_timestamp_epoch,1789771720,1789771720
+max_timestamp_epoch,1789773215,1789773215
+warmup_runs,5,5
+measured_runs,20,20
+benchmark_started_utc,"2026-09-18T23:46:59.899993Z","2026-09-18T23:46:59.899993Z"

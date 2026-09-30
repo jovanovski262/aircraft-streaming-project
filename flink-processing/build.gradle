@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.gradleup.shadow' version '8.3.6'
+}
+
+group = 'com.mk.ukim.finki'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.flink:flink-streaming-java:2.2.0'
+    implementation 'org.apache.flink:flink-clients:2.2.0'
+
+    implementation 'org.apache.flink:flink-connector-kafka:5.0.0-2.2'
+
+    implementation 'com.clickhouse:clickhouse-jdbc:0.10.0:all'
+
+    implementation 'org.postgresql:postgresql:42.7.13'
+
+    implementation 'com.google.code.gson:gson:2.13.2'
+
+    implementation 'org.slf4j:slf4j-api:2.0.17'
+    implementation 'org.slf4j:slf4j-simple:2.0.17'
+}
+
+configurations.configureEach {
+    resolutionStrategy.capabilitiesResolution.withCapability(
+            'org.lz4:lz4-java'
+    ) {
+        select('at.yawk.lz4:lz4-java:1.10.1')
+    }
+}
+
+application {
+    mainClass = 'com.mk.ukim.finki.AircraftFlinkJob'
+}

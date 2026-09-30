@@ -1,0 +1,21 @@
+query_id,query_description,database,measured_runs,result_rows,mean_ms,median_ms,min_ms,max_ms,std_dev_ms,p95_ms
+Q1,"Count all observations",ClickHouse,20,1,4.999,4.835,3.623,7.821,1.070,6.894
+Q1,"Count all observations",TimescaleDB,20,1,48.914,45.455,37.831,78.045,11.585,67.611
+Q2,"Count distinct aircraft",ClickHouse,20,1,28.027,24.679,21.616,44.749,7.472,43.737
+Q2,"Count distinct aircraft",TimescaleDB,20,1,1545.087,1538.708,1500.242,1629.618,32.784,1595.393
+Q3,"Observations by origin country",ClickHouse,20,111,19.190,20.314,13.683,26.710,3.856,25.708
+Q3,"Observations by origin country",TimescaleDB,20,111,85.475,83.036,74.711,127.555,11.183,94.758
+Q4,"Average velocity by origin country",ClickHouse,20,111,27.798,26.321,19.949,42.413,6.667,37.112
+Q4,"Average velocity by origin country",TimescaleDB,20,111,165.631,162.110,136.036,219.854,21.451,198.805
+Q5,"Flight phase distribution",ClickHouse,20,4,19.513,19.344,16.839,23.172,2.028,22.645
+Q5,"Flight phase distribution",TimescaleDB,20,4,150.845,142.655,95.604,250.438,36.670,228.479
+Q6,"Observations per minute",ClickHouse,20,26,17.187,15.769,13.537,26.570,3.352,23.908
+Q6,"Observations per minute",TimescaleDB,20,26,98.145,94.568,81.865,161.783,18.211,118.034
+Q7,"Average altitude per minute",ClickHouse,20,26,24.809,24.202,20.080,32.893,3.975,31.244
+Q7,"Average altitude per minute",TimescaleDB,20,26,132.043,129.550,118.131,155.587,10.568,151.826
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,20,1,21.086,17.628,15.438,46.128,8.867,39.931
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,20,1,96.642,94.776,87.468,136.501,10.281,102.121
+Q9,"Trajectory of most observed aircraft",ClickHouse,20,99,60.020,58.946,52.878,74.079,5.585,67.224
+Q9,"Trajectory of most observed aircraft",TimescaleDB,20,99,244.505,235.440,221.366,315.252,21.626,263.415
+Q10,"Latest observation for every aircraft",ClickHouse,20,13088,111.483,111.508,98.019,128.578,8.648,124.216
+Q10,"Latest observation for every aircraft",TimescaleDB,20,13088,2471.474,2328.739,2290.230,3599.515,326.532,2949.715

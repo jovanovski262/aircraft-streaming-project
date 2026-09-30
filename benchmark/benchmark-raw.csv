@@ -1,0 +1,401 @@
+query_id,query_description,database,run,execution_ms,result_rows
+Q1,"Count all observations",ClickHouse,1,4.094,1
+Q1,"Count all observations",ClickHouse,2,3.757,1
+Q1,"Count all observations",ClickHouse,3,3.634,1
+Q1,"Count all observations",ClickHouse,4,3.623,1
+Q1,"Count all observations",ClickHouse,5,4.558,1
+Q1,"Count all observations",ClickHouse,6,5.592,1
+Q1,"Count all observations",ClickHouse,7,5.850,1
+Q1,"Count all observations",ClickHouse,8,6.894,1
+Q1,"Count all observations",ClickHouse,9,4.971,1
+Q1,"Count all observations",ClickHouse,10,4.205,1
+Q1,"Count all observations",ClickHouse,11,4.437,1
+Q1,"Count all observations",ClickHouse,12,5.795,1
+Q1,"Count all observations",ClickHouse,13,4.886,1
+Q1,"Count all observations",ClickHouse,14,5.403,1
+Q1,"Count all observations",ClickHouse,15,7.821,1
+Q1,"Count all observations",ClickHouse,16,5.658,1
+Q1,"Count all observations",ClickHouse,17,4.784,1
+Q1,"Count all observations",ClickHouse,18,4.280,1
+Q1,"Count all observations",ClickHouse,19,4.956,1
+Q1,"Count all observations",ClickHouse,20,4.784,1
+Q1,"Count all observations",TimescaleDB,1,64.052,1
+Q1,"Count all observations",TimescaleDB,2,78.045,1
+Q1,"Count all observations",TimescaleDB,3,67.611,1
+Q1,"Count all observations",TimescaleDB,4,49.323,1
+Q1,"Count all observations",TimescaleDB,5,41.021,1
+Q1,"Count all observations",TimescaleDB,6,45.222,1
+Q1,"Count all observations",TimescaleDB,7,38.469,1
+Q1,"Count all observations",TimescaleDB,8,38.036,1
+Q1,"Count all observations",TimescaleDB,9,37.831,1
+Q1,"Count all observations",TimescaleDB,10,38.190,1
+Q1,"Count all observations",TimescaleDB,11,62.824,1
+Q1,"Count all observations",TimescaleDB,12,53.797,1
+Q1,"Count all observations",TimescaleDB,13,41.619,1
+Q1,"Count all observations",TimescaleDB,14,39.362,1
+Q1,"Count all observations",TimescaleDB,15,40.538,1
+Q1,"Count all observations",TimescaleDB,16,45.687,1
+Q1,"Count all observations",TimescaleDB,17,47.560,1
+Q1,"Count all observations",TimescaleDB,18,59.127,1
+Q1,"Count all observations",TimescaleDB,19,45.974,1
+Q1,"Count all observations",TimescaleDB,20,44.000,1
+Q2,"Count distinct aircraft",TimescaleDB,1,1537.793,1
+Q2,"Count distinct aircraft",TimescaleDB,2,1538.705,1
+Q2,"Count distinct aircraft",TimescaleDB,3,1501.248,1
+Q2,"Count distinct aircraft",TimescaleDB,4,1532.466,1
+Q2,"Count distinct aircraft",TimescaleDB,5,1582.426,1
+Q2,"Count distinct aircraft",TimescaleDB,6,1563.291,1
+Q2,"Count distinct aircraft",TimescaleDB,7,1521.133,1
+Q2,"Count distinct aircraft",TimescaleDB,8,1516.440,1
+Q2,"Count distinct aircraft",TimescaleDB,9,1538.711,1
+Q2,"Count distinct aircraft",TimescaleDB,10,1535.204,1
+Q2,"Count distinct aircraft",TimescaleDB,11,1595.393,1
+Q2,"Count distinct aircraft",TimescaleDB,12,1565.753,1
+Q2,"Count distinct aircraft",TimescaleDB,13,1500.242,1
+Q2,"Count distinct aircraft",TimescaleDB,14,1506.381,1
+Q2,"Count distinct aircraft",TimescaleDB,15,1576.335,1
+Q2,"Count distinct aircraft",TimescaleDB,16,1629.618,1
+Q2,"Count distinct aircraft",TimescaleDB,17,1526.533,1
+Q2,"Count distinct aircraft",TimescaleDB,18,1540.542,1
+Q2,"Count distinct aircraft",TimescaleDB,19,1543.037,1
+Q2,"Count distinct aircraft",TimescaleDB,20,1550.498,1
+Q2,"Count distinct aircraft",ClickHouse,1,25.052,1
+Q2,"Count distinct aircraft",ClickHouse,2,23.005,1
+Q2,"Count distinct aircraft",ClickHouse,3,22.487,1
+Q2,"Count distinct aircraft",ClickHouse,4,29.555,1
+Q2,"Count distinct aircraft",ClickHouse,5,43.737,1
+Q2,"Count distinct aircraft",ClickHouse,6,44.749,1
+Q2,"Count distinct aircraft",ClickHouse,7,28.810,1
+Q2,"Count distinct aircraft",ClickHouse,8,21.954,1
+Q2,"Count distinct aircraft",ClickHouse,9,24.243,1
+Q2,"Count distinct aircraft",ClickHouse,10,25.999,1
+Q2,"Count distinct aircraft",ClickHouse,11,22.618,1
+Q2,"Count distinct aircraft",ClickHouse,12,22.719,1
+Q2,"Count distinct aircraft",ClickHouse,13,21.616,1
+Q2,"Count distinct aircraft",ClickHouse,14,24.305,1
+Q2,"Count distinct aircraft",ClickHouse,15,34.333,1
+Q2,"Count distinct aircraft",ClickHouse,16,41.107,1
+Q2,"Count distinct aircraft",ClickHouse,17,32.464,1
+Q2,"Count distinct aircraft",ClickHouse,18,27.388,1
+Q2,"Count distinct aircraft",ClickHouse,19,22.115,1
+Q2,"Count distinct aircraft",ClickHouse,20,22.275,1
+Q3,"Observations by origin country",ClickHouse,1,18.729,111
+Q3,"Observations by origin country",ClickHouse,2,20.504,111
+Q3,"Observations by origin country",ClickHouse,3,18.311,111
+Q3,"Observations by origin country",ClickHouse,4,16.789,111
+Q3,"Observations by origin country",ClickHouse,5,14.313,111
+Q3,"Observations by origin country",ClickHouse,6,13.683,111
+Q3,"Observations by origin country",ClickHouse,7,15.404,111
+Q3,"Observations by origin country",ClickHouse,8,13.909,111
+Q3,"Observations by origin country",ClickHouse,9,14.993,111
+Q3,"Observations by origin country",ClickHouse,10,14.590,111
+Q3,"Observations by origin country",ClickHouse,11,22.155,111
+Q3,"Observations by origin country",ClickHouse,12,21.067,111
+Q3,"Observations by origin country",ClickHouse,13,20.492,111
+Q3,"Observations by origin country",ClickHouse,14,20.526,111
+Q3,"Observations by origin country",ClickHouse,15,21.466,111
+Q3,"Observations by origin country",ClickHouse,16,21.668,111
+Q3,"Observations by origin country",ClickHouse,17,20.136,111
+Q3,"Observations by origin country",ClickHouse,18,25.708,111
+Q3,"Observations by origin country",ClickHouse,19,22.645,111
+Q3,"Observations by origin country",ClickHouse,20,26.710,111
+Q3,"Observations by origin country",TimescaleDB,1,80.156,111
+Q3,"Observations by origin country",TimescaleDB,2,88.942,111
+Q3,"Observations by origin country",TimescaleDB,3,82.010,111
+Q3,"Observations by origin country",TimescaleDB,4,78.033,111
+Q3,"Observations by origin country",TimescaleDB,5,84.312,111
+Q3,"Observations by origin country",TimescaleDB,6,89.084,111
+Q3,"Observations by origin country",TimescaleDB,7,78.102,111
+Q3,"Observations by origin country",TimescaleDB,8,80.256,111
+Q3,"Observations by origin country",TimescaleDB,9,94.758,111
+Q3,"Observations by origin country",TimescaleDB,10,84.063,111
+Q3,"Observations by origin country",TimescaleDB,11,80.972,111
+Q3,"Observations by origin country",TimescaleDB,12,76.049,111
+Q3,"Observations by origin country",TimescaleDB,13,87.816,111
+Q3,"Observations by origin country",TimescaleDB,14,87.144,111
+Q3,"Observations by origin country",TimescaleDB,15,78.462,111
+Q3,"Observations by origin country",TimescaleDB,16,89.542,111
+Q3,"Observations by origin country",TimescaleDB,17,81.698,111
+Q3,"Observations by origin country",TimescaleDB,18,74.711,111
+Q3,"Observations by origin country",TimescaleDB,19,85.828,111
+Q3,"Observations by origin country",TimescaleDB,20,127.555,111
+Q4,"Average velocity by origin country",TimescaleDB,1,157.377,111
+Q4,"Average velocity by origin country",TimescaleDB,2,157.581,111
+Q4,"Average velocity by origin country",TimescaleDB,3,163.116,111
+Q4,"Average velocity by origin country",TimescaleDB,4,164.383,111
+Q4,"Average velocity by origin country",TimescaleDB,5,176.167,111
+Q4,"Average velocity by origin country",TimescaleDB,6,157.476,111
+Q4,"Average velocity by origin country",TimescaleDB,7,161.937,111
+Q4,"Average velocity by origin country",TimescaleDB,8,182.740,111
+Q4,"Average velocity by origin country",TimescaleDB,9,162.282,111
+Q4,"Average velocity by origin country",TimescaleDB,10,179.947,111
+Q4,"Average velocity by origin country",TimescaleDB,11,198.805,111
+Q4,"Average velocity by origin country",TimescaleDB,12,219.854,111
+Q4,"Average velocity by origin country",TimescaleDB,13,194.230,111
+Q4,"Average velocity by origin country",TimescaleDB,14,157.994,111
+Q4,"Average velocity by origin country",TimescaleDB,15,170.522,111
+Q4,"Average velocity by origin country",TimescaleDB,16,143.231,111
+Q4,"Average velocity by origin country",TimescaleDB,17,147.990,111
+Q4,"Average velocity by origin country",TimescaleDB,18,136.036,111
+Q4,"Average velocity by origin country",TimescaleDB,19,142.424,111
+Q4,"Average velocity by origin country",TimescaleDB,20,138.537,111
+Q4,"Average velocity by origin country",ClickHouse,1,28.892,111
+Q4,"Average velocity by origin country",ClickHouse,2,29.473,111
+Q4,"Average velocity by origin country",ClickHouse,3,25.422,111
+Q4,"Average velocity by origin country",ClickHouse,4,25.869,111
+Q4,"Average velocity by origin country",ClickHouse,5,26.773,111
+Q4,"Average velocity by origin country",ClickHouse,6,32.537,111
+Q4,"Average velocity by origin country",ClickHouse,7,33.319,111
+Q4,"Average velocity by origin country",ClickHouse,8,34.801,111
+Q4,"Average velocity by origin country",ClickHouse,9,42.413,111
+Q4,"Average velocity by origin country",ClickHouse,10,37.112,111
+Q4,"Average velocity by origin country",ClickHouse,11,35.558,111
+Q4,"Average velocity by origin country",ClickHouse,12,32.593,111
+Q4,"Average velocity by origin country",ClickHouse,13,23.595,111
+Q4,"Average velocity by origin country",ClickHouse,14,20.809,111
+Q4,"Average velocity by origin country",ClickHouse,15,19.949,111
+Q4,"Average velocity by origin country",ClickHouse,16,21.812,111
+Q4,"Average velocity by origin country",ClickHouse,17,20.801,111
+Q4,"Average velocity by origin country",ClickHouse,18,20.141,111
+Q4,"Average velocity by origin country",ClickHouse,19,20.192,111
+Q4,"Average velocity by origin country",ClickHouse,20,23.889,111
+Q5,"Flight phase distribution",ClickHouse,1,19.296,4
+Q5,"Flight phase distribution",ClickHouse,2,17.421,4
+Q5,"Flight phase distribution",ClickHouse,3,17.921,4
+Q5,"Flight phase distribution",ClickHouse,4,19.141,4
+Q5,"Flight phase distribution",ClickHouse,5,16.839,4
+Q5,"Flight phase distribution",ClickHouse,6,17.325,4
+Q5,"Flight phase distribution",ClickHouse,7,23.172,4
+Q5,"Flight phase distribution",ClickHouse,8,20.076,4
+Q5,"Flight phase distribution",ClickHouse,9,19.909,4
+Q5,"Flight phase distribution",ClickHouse,10,21.432,4
+Q5,"Flight phase distribution",ClickHouse,11,20.528,4
+Q5,"Flight phase distribution",ClickHouse,12,19.779,4
+Q5,"Flight phase distribution",ClickHouse,13,19.391,4
+Q5,"Flight phase distribution",ClickHouse,14,16.946,4
+Q5,"Flight phase distribution",ClickHouse,15,17.418,4
+Q5,"Flight phase distribution",ClickHouse,16,17.521,4
+Q5,"Flight phase distribution",ClickHouse,17,22.605,4
+Q5,"Flight phase distribution",ClickHouse,18,18.954,4
+Q5,"Flight phase distribution",ClickHouse,19,22.645,4
+Q5,"Flight phase distribution",ClickHouse,20,21.931,4
+Q5,"Flight phase distribution",TimescaleDB,1,95.604,4
+Q5,"Flight phase distribution",TimescaleDB,2,99.672,4
+Q5,"Flight phase distribution",TimescaleDB,3,130.981,4
+Q5,"Flight phase distribution",TimescaleDB,4,134.680,4
+Q5,"Flight phase distribution",TimescaleDB,5,133.100,4
+Q5,"Flight phase distribution",TimescaleDB,6,178.440,4
+Q5,"Flight phase distribution",TimescaleDB,7,228.479,4
+Q5,"Flight phase distribution",TimescaleDB,8,135.755,4
+Q5,"Flight phase distribution",TimescaleDB,9,180.041,4
+Q5,"Flight phase distribution",TimescaleDB,10,145.565,4
+Q5,"Flight phase distribution",TimescaleDB,11,147.537,4
+Q5,"Flight phase distribution",TimescaleDB,12,134.403,4
+Q5,"Flight phase distribution",TimescaleDB,13,143.582,4
+Q5,"Flight phase distribution",TimescaleDB,14,136.629,4
+Q5,"Flight phase distribution",TimescaleDB,15,141.729,4
+Q5,"Flight phase distribution",TimescaleDB,16,144.308,4
+Q5,"Flight phase distribution",TimescaleDB,17,250.438,4
+Q5,"Flight phase distribution",TimescaleDB,18,162.428,4
+Q5,"Flight phase distribution",TimescaleDB,19,158.254,4
+Q5,"Flight phase distribution",TimescaleDB,20,135.282,4
+Q6,"Observations per minute",TimescaleDB,1,109.021,26
+Q6,"Observations per minute",TimescaleDB,2,102.511,26
+Q6,"Observations per minute",TimescaleDB,3,101.292,26
+Q6,"Observations per minute",TimescaleDB,4,90.798,26
+Q6,"Observations per minute",TimescaleDB,5,99.351,26
+Q6,"Observations per minute",TimescaleDB,6,98.210,26
+Q6,"Observations per minute",TimescaleDB,7,82.293,26
+Q6,"Observations per minute",TimescaleDB,8,86.460,26
+Q6,"Observations per minute",TimescaleDB,9,90.926,26
+Q6,"Observations per minute",TimescaleDB,10,102.532,26
+Q6,"Observations per minute",TimescaleDB,11,84.906,26
+Q6,"Observations per minute",TimescaleDB,12,118.034,26
+Q6,"Observations per minute",TimescaleDB,13,105.935,26
+Q6,"Observations per minute",TimescaleDB,14,81.865,26
+Q6,"Observations per minute",TimescaleDB,15,86.509,26
+Q6,"Observations per minute",TimescaleDB,16,161.783,26
+Q6,"Observations per minute",TimescaleDB,17,90.663,26
+Q6,"Observations per minute",TimescaleDB,18,82.381,26
+Q6,"Observations per minute",TimescaleDB,19,83.367,26
+Q6,"Observations per minute",TimescaleDB,20,104.062,26
+Q6,"Observations per minute",ClickHouse,1,16.617,26
+Q6,"Observations per minute",ClickHouse,2,14.856,26
+Q6,"Observations per minute",ClickHouse,3,20.584,26
+Q6,"Observations per minute",ClickHouse,4,16.684,26
+Q6,"Observations per minute",ClickHouse,5,15.640,26
+Q6,"Observations per minute",ClickHouse,6,15.304,26
+Q6,"Observations per minute",ClickHouse,7,15.332,26
+Q6,"Observations per minute",ClickHouse,8,15.431,26
+Q6,"Observations per minute",ClickHouse,9,15.423,26
+Q6,"Observations per minute",ClickHouse,10,15.252,26
+Q6,"Observations per minute",ClickHouse,11,13.882,26
+Q6,"Observations per minute",ClickHouse,12,17.482,26
+Q6,"Observations per minute",ClickHouse,13,19.841,26
+Q6,"Observations per minute",ClickHouse,14,26.570,26
+Q6,"Observations per minute",ClickHouse,15,23.908,26
+Q6,"Observations per minute",ClickHouse,16,19.798,26
+Q6,"Observations per minute",ClickHouse,17,15.837,26
+Q6,"Observations per minute",ClickHouse,18,15.701,26
+Q6,"Observations per minute",ClickHouse,19,16.072,26
+Q6,"Observations per minute",ClickHouse,20,13.537,26
+Q7,"Average altitude per minute",ClickHouse,1,29.322,26
+Q7,"Average altitude per minute",ClickHouse,2,26.717,26
+Q7,"Average altitude per minute",ClickHouse,3,26.446,26
+Q7,"Average altitude per minute",ClickHouse,4,27.154,26
+Q7,"Average altitude per minute",ClickHouse,5,28.337,26
+Q7,"Average altitude per minute",ClickHouse,6,29.723,26
+Q7,"Average altitude per minute",ClickHouse,7,32.893,26
+Q7,"Average altitude per minute",ClickHouse,8,31.244,26
+Q7,"Average altitude per minute",ClickHouse,9,21.822,26
+Q7,"Average altitude per minute",ClickHouse,10,20.486,26
+Q7,"Average altitude per minute",ClickHouse,11,20.847,26
+Q7,"Average altitude per minute",ClickHouse,12,20.080,26
+Q7,"Average altitude per minute",ClickHouse,13,20.229,26
+Q7,"Average altitude per minute",ClickHouse,14,20.847,26
+Q7,"Average altitude per minute",ClickHouse,15,23.389,26
+Q7,"Average altitude per minute",ClickHouse,16,23.784,26
+Q7,"Average altitude per minute",ClickHouse,17,24.619,26
+Q7,"Average altitude per minute",ClickHouse,18,24.803,26
+Q7,"Average altitude per minute",ClickHouse,19,21.935,26
+Q7,"Average altitude per minute",ClickHouse,20,21.502,26
+Q7,"Average altitude per minute",TimescaleDB,1,133.263,26
+Q7,"Average altitude per minute",TimescaleDB,2,129.664,26
+Q7,"Average altitude per minute",TimescaleDB,3,148.111,26
+Q7,"Average altitude per minute",TimescaleDB,4,136.770,26
+Q7,"Average altitude per minute",TimescaleDB,5,130.412,26
+Q7,"Average altitude per minute",TimescaleDB,6,126.716,26
+Q7,"Average altitude per minute",TimescaleDB,7,118.131,26
+Q7,"Average altitude per minute",TimescaleDB,8,128.245,26
+Q7,"Average altitude per minute",TimescaleDB,9,130.155,26
+Q7,"Average altitude per minute",TimescaleDB,10,121.575,26
+Q7,"Average altitude per minute",TimescaleDB,11,124.629,26
+Q7,"Average altitude per minute",TimescaleDB,12,121.417,26
+Q7,"Average altitude per minute",TimescaleDB,13,129.436,26
+Q7,"Average altitude per minute",TimescaleDB,14,137.918,26
+Q7,"Average altitude per minute",TimescaleDB,15,143.909,26
+Q7,"Average altitude per minute",TimescaleDB,16,155.587,26
+Q7,"Average altitude per minute",TimescaleDB,17,151.826,26
+Q7,"Average altitude per minute",TimescaleDB,18,122.639,26
+Q7,"Average altitude per minute",TimescaleDB,19,126.862,26
+Q7,"Average altitude per minute",TimescaleDB,20,123.597,26
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,1,95.733,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,2,92.264,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,3,101.403,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,4,92.954,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,5,95.605,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,6,102.121,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,7,96.282,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,8,136.501,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,9,99.991,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,10,92.544,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,11,92.274,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,12,97.222,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,13,89.618,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,14,87.468,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,15,93.947,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,16,99.113,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,17,88.517,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,18,91.596,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,19,97.770,1
+Q8,"Recent 10-minute time-range aggregation",TimescaleDB,20,89.924,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,1,21.318,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,2,39.931,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,3,46.128,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,4,36.591,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,5,18.924,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,6,16.844,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,7,15.905,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,8,17.238,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,9,19.091,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,10,15.639,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,11,16.416,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,12,15.438,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,13,15.469,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,14,15.530,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,15,18.181,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,16,18.329,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,17,17.225,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,18,22.327,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,19,18.019,1
+Q8,"Recent 10-minute time-range aggregation",ClickHouse,20,17.187,1
+Q9,"Trajectory of most observed aircraft",ClickHouse,1,63.601,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,2,64.846,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,3,74.079,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,4,66.773,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,5,55.867,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,6,58.721,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,7,55.007,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,8,65.317,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,9,59.171,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,10,61.905,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,11,67.224,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,12,54.130,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,13,61.286,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,14,57.718,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,15,52.878,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,16,57.355,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,17,57.103,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,18,54.923,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,19,59.582,99
+Q9,"Trajectory of most observed aircraft",ClickHouse,20,52.905,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,1,232.867,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,2,221.366,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,3,228.881,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,4,247.861,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,5,232.124,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,6,233.964,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,7,231.259,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,8,236.917,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,9,228.694,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,10,226.143,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,11,230.217,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,12,226.018,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,13,247.157,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,14,250.171,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,15,257.130,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,16,256.024,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,17,315.252,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,18,261.787,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,19,262.849,99
+Q9,"Trajectory of most observed aircraft",TimescaleDB,20,263.415,99
+Q10,"Latest observation for every aircraft",TimescaleDB,1,2323.775,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,2,2329.105,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,3,2709.263,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,4,2846.457,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,5,2298.258,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,6,2315.515,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,7,2319.901,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,8,2326.144,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,9,2366.395,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,10,2383.842,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,11,2290.230,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,12,3599.515,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,13,2310.145,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,14,2290.940,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,15,2341.928,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,16,2430.007,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,17,2351.788,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,18,2318.186,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,19,2949.715,13088
+Q10,"Latest observation for every aircraft",TimescaleDB,20,2328.372,13088
+Q10,"Latest observation for every aircraft",ClickHouse,1,118.113,13088
+Q10,"Latest observation for every aircraft",ClickHouse,2,117.283,13088
+Q10,"Latest observation for every aircraft",ClickHouse,3,124.216,13088
+Q10,"Latest observation for every aircraft",ClickHouse,4,117.218,13088
+Q10,"Latest observation for every aircraft",ClickHouse,5,111.312,13088
+Q10,"Latest observation for every aircraft",ClickHouse,6,100.933,13088
+Q10,"Latest observation for every aircraft",ClickHouse,7,128.578,13088
+Q10,"Latest observation for every aircraft",ClickHouse,8,105.429,13088
+Q10,"Latest observation for every aircraft",ClickHouse,9,105.044,13088
+Q10,"Latest observation for every aircraft",ClickHouse,10,116.590,13088
+Q10,"Latest observation for every aircraft",ClickHouse,11,104.240,13088
+Q10,"Latest observation for every aircraft",ClickHouse,12,120.883,13088
+Q10,"Latest observation for every aircraft",ClickHouse,13,117.370,13088
+Q10,"Latest observation for every aircraft",ClickHouse,14,105.253,13088
+Q10,"Latest observation for every aircraft",ClickHouse,15,99.051,13088
+Q10,"Latest observation for every aircraft",ClickHouse,16,98.019,13088
+Q10,"Latest observation for every aircraft",ClickHouse,17,116.339,13088
+Q10,"Latest observation for every aircraft",ClickHouse,18,108.021,13088
+Q10,"Latest observation for every aircraft",ClickHouse,19,104.070,13088
+Q10,"Latest observation for every aircraft",ClickHouse,20,111.703,13088
