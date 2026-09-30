@@ -47,8 +47,8 @@ services:
 
     environment:
       POSTGRES_DB: conduktor
-      POSTGRES_USER: conduktor
-      POSTGRES_PASSWORD: conduktor
+      POSTGRES_USER: ${CONDUKTOR_DB_USER}
+      POSTGRES_PASSWORD: ${CONDUKTOR_DB_PASSWORD}
 
     volumes:
       - conduktor-postgres-data:/var/lib/postgresql/data
@@ -118,8 +118,8 @@ services:
 
     environment:
       CLICKHOUSE_DB: aircraft
-      CLICKHOUSE_USER: clickhouse
-      CLICKHOUSE_PASSWORD: clickhouse
+      CLICKHOUSE_USER: ${CLICKHOUSE_DB_USER}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_DB_PASSWORD}
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
 
     volumes:
@@ -141,8 +141,8 @@ services:
 
     environment:
       POSTGRES_DB: aircraft
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: ${TIMESCALE_DB_USER}
+      POSTGRES_PASSWORD: ${TIMESCALE_DB_PASSWORD}
 
     volumes:
       - timescaledb-data:/var/lib/postgresql/data
